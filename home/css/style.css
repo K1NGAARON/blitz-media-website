@@ -1,0 +1,88 @@
+.projects .projects-wrapper {
+    margin-top: 40px;
+    gap: 80px;
+}
+
+.projects .projects-wrapper .item {
+    background-color: var(--white);
+    border-radius: var(--borderRadius);
+}
+
+.projects .projects-wrapper .item img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.projects .projects-wrapper .item .content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.projects .projects-wrapper .item .content h3,
+.projects .projects-wrapper .item .content p  {
+    color: var(--black);
+}
+
+/* TO DO */
+/*
+
+ZOOM ON IMAGE HOVER
+
+*/
+
+
+.services .services-wrapper {
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.services .services-wrapper .item {
+    flex: 1 0 40%;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.services .services-wrapper .item img {
+    max-width: 70px;
+    height: auto;
+    border-radius: 0;
+}
+
+.services .services-wrapper .item .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75%;
+}
+
+.services .services-wrapper .item .content h3,
+.services .services-wrapper .item .content p  {
+    color: var(--white);
+}
+
+.review .review-wrapper {
+    width: 100%;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.review .review-wrapper .item .quote {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.review .review-wrapper .item .author {
+    opacity: 0.7;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.review .review-wrapper .item a {
+    color: var(--white);
+    font-weight: 400;
+}
