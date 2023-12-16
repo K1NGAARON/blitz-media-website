@@ -220,11 +220,7 @@ img {
 
 .form-wrapper {
     display: flex;
-    width: 80%;
-    padding: 30px;
-    border-radius: 3px;
-    background-color: var(--white);
-    box-shadow: var(--boxShadow);
+    width: 100%;
 }
 
 .form-wrapper form {
@@ -233,6 +229,16 @@ img {
     flex-direction: column;
     gap: 10px;
     margin: 0;
+}
+
+.form-wrapper .form-row {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+.form-wrapper .form-row input {
+
 }
 
 .form-wrapper input {
