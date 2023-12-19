@@ -225,21 +225,17 @@ img {
 }
 
 .form-wrapper form {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     margin: 0;
 }
 
 .form-wrapper .form-row {
     display: flex;
     flex-flow: row wrap;
-    gap: 40px;
-}
-
-.form-wrapper .form-row input {
-
+    gap: 20px;
 }
 
 .form-wrapper input {
@@ -248,32 +244,36 @@ img {
     width: 100%;
     padding: 16px;
     background-color: hsla(0, 0%, 100%, 0.1);
-    border: none;
-    border-bottom: 1px solid var(--primary);
-    border-radius: 0;
+    border: 1px solid var(--primary);
+    border-radius: 12px;
     height: 60px;
     outline: none;
-    font-size: 18px;
-    transition: border-bottom 200ms ease;
+    font-size: 16px;
+    transition: border 200ms ease;
 }
 
 .form-wrapper input:focus {
-    transition: border-bottom 200ms ease;
-    border-bottom: 2px solid var(--primary);
+    transition: border 200ms ease;
+    border: 2px solid var(--primary);
 }
 
 .form-wrapper .btn {
+    width: fit-content;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
     color: var(--white);
     background-color: var(--primary);
-    border-bottom: 1px solid var(--primary);
-    transition: border-bottom 200ms ease;
-    transition: var(--transition);
-    margin-top: 20px;
-    border-radius: 12px;
+    border: 1px solid var(--primary);
+    border-radius: var(--borderRadius);
+    padding: 10px 30px;
+    transition: var(--transition); 
 }
 
 .form-wrapper .btn:hover {
-    transform: scale(1.02);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: var(--transition);
 }
 
 .slideUp {

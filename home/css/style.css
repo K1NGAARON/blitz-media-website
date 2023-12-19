@@ -106,7 +106,8 @@ ZOOM ON IMAGE HOVER
     color: var(--black);
 }
 
-.contact h5 {
+.contact .heading {
+    color: var(--black);
     font-size: 28px;
     font-weight: 700;
 }
