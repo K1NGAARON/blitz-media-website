@@ -147,7 +147,6 @@
     justify-content: center;
     align-items: center;
     background-color: #3A3A3A;
-    /* background-color: var(--primary); */
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -155,6 +154,12 @@
 
 .socials .icon i {
     color: var(--white);
+    transition: var(--transition);
+}
+
+.socials .icon:hover i {
+    color: var(--primary);
+    transition: var(--transition);
 }
 
 @media (max-width: 800px) {

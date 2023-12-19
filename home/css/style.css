@@ -1,6 +1,6 @@
 .projects .projects-wrapper {
     margin-top: 40px;
-    gap: 80px;
+    gap: 40px;
 }
 
 .projects .projects-wrapper .item {
@@ -17,7 +17,11 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
-    gap: 20px;
+    gap: 10px;
+}
+
+.projects .projects-wrapper .item .content .btn {
+    margin-top: 20px;
 }
 
 .projects .projects-wrapper .item .content h3,
@@ -56,6 +60,18 @@ ZOOM ON IMAGE HOVER
     flex-direction: column;
     gap: 20px;
     width: 75%;
+}
+
+.services .services-wrapper .item .content a,
+.services .services-wrapper .item .content i {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.services .services-wrapper .item .content a:hover,
+.services .services-wrapper .item .content a:hover i {
+    color: var(--primary);
+    transition: var(--transition);
 }
 
 .services .services-wrapper .item .content h3,
