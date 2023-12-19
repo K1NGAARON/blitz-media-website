@@ -128,7 +128,7 @@ ZOOM ON IMAGE HOVER
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3A3A3A;
+    background-color: var(--primary);
     border-radius: 50%;
     width: 30px;
     height: 30px;
