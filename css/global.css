@@ -303,7 +303,7 @@ img {
     flex-direction: column;
 }
 
-.cookie-banner-content h4 {
+.cookie-banner-content .heading {
     font-weight: 700;
     margin-bottom: 10px;
 }
