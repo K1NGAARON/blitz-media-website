@@ -421,11 +421,15 @@ img {
     }
 
     .section.logos .row .logos-wrapper {
-        gap: 20px;
+        gap: 25px;
     }
 
     .section.logos .row .logos-wrapper .item {
-        flex: 1 0 40%;
+        flex: 0 1 25%;
         padding: 0;
+    }
+
+    .section.logos .row .logos-wrapper .item:last-child {
+        display: none;
     }
 }
