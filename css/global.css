@@ -376,6 +376,68 @@ img {
     transition: var(--transition);
 }
 
+.contact .row {
+    align-items: flex-start;
+    gap: 80px;
+    background-color: var(--white);
+}
+
+.contact .row .col:nth-of-type(1) {
+    flex: 2 0;
+}
+
+.contact .row .col:nth-of-type(2) {
+    flex: 1 0;
+}
+
+.contact .row .col:nth-of-type(1) h2,
+.contact .row .col:nth-of-type(1) p {
+    color: var(--black);
+}
+
+.contact .heading {
+    color: var(--black);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact .legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .legal .legal-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact .legal .legal-item .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.contact .legal .legal-item .icon i {
+    color: var(--white);
+}
+
+.contact .legal .legal-item a,
+.contact .legal .legal-item p {
+    color: var(--black);
+    transition: var(--transition);
+}
+
+.contact .legal .legal-item a:hover {
+    color: var(--primary);
+    transition: var(--transition);
+}
+
 @keyframes slide-up {
 	0% {
 		opacity: 0;
@@ -435,5 +497,17 @@ img {
 
     .section.logos .row .logos-wrapper .item:last-child {
         display: none;
+    }
+
+    .form-wrapper form {
+        width: 100%;
+    }
+
+    .form-wrapper input {
+        font-size: 14px;
+    }
+
+    .contact .heading {
+        font-size: 22px;
     }
 }
