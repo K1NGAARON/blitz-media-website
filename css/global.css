@@ -303,6 +303,10 @@ img {
     flex-direction: column;
 }
 
+.cookie-banner-content p {
+    color: var(--black);
+}
+
 .cookie-banner-content .heading {
     font-weight: 700;
     margin-bottom: 10px;
