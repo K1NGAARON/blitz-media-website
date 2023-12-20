@@ -164,3 +164,30 @@ ZOOM ON IMAGE HOVER
     color: var(--primary);
     transition: var(--transition);
 }
+
+@media (max-width: 560px) {
+    .about .row {
+        flex-flow: column-reverse;
+    }
+
+    .services .services-wrapper .item {
+        flex: 1 0 100%;
+        gap: 20px;
+    }
+
+    .services .services-wrapper .item .content {
+        width: 100%;
+    }
+
+    .form-wrapper form {
+        width: 100%;
+    }
+
+    .form-wrapper input {
+        font-size: 14px;
+    }
+
+    .contact .heading {
+        font-size: 22px;
+    }
+}

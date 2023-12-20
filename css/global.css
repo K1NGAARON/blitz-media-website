@@ -395,27 +395,37 @@ img {
 
 @media (max-width: 560px) {
     h1 {
-
+        font-size: 30px;
     }
 
     h2 {
-
+        font-size: 26px;
     }
 
     h3 {
+        font-size: 22px;
+    }
 
+    .section .row {
+        padding: 30px;
+        gap: 40px;
     }
 
     .section .row .col {
         flex: 1 0 100%;
     }
 
-    .section .row {
-        padding: 0 30px;
-    }
-
     p,
     .btn {
         font-size: 14px;
+    }
+
+    .section.logos .row .logos-wrapper {
+        gap: 20px;
+    }
+
+    .section.logos .row .logos-wrapper .item {
+        flex: 1 0 40%;
+        padding: 0;
     }
 }
