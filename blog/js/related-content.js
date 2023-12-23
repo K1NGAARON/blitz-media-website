@@ -30,7 +30,7 @@ const content = [
 ];
 
 function createCards(e) {
-    const target = document.querySelector('#content');
+    const target = document.querySelector('#related-content-wrapper');
     const shuffledArray = content.sort((a, b) => 0.5 - Math.random());
     
     const cards = shuffledArray.map(item => {
