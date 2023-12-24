@@ -541,4 +541,18 @@ img {
     .contact .heading {
         font-size: 22px;
     }
+
+    .section .scroll-down {
+        display: none;
+    }
+
+    .section.filter .wrapper {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projects .projects-wrapper .item .content h3 {
+        text-align: left;
+    }
 }
