@@ -1,0 +1,7 @@
+.banner.section .row .col:nth-child(1) {
+    flex: 2 0;
+}
+
+.banner.section .row .col:nth-child(2) {
+    flex: 1 0;
+}
