@@ -11,6 +11,10 @@
     flex: 1 0;
 }
 
+.contact .form-wrapper form {
+    width: 100%;
+}
+
 .contact .form-wrapper input {
     background-color: var(--white);
 }
