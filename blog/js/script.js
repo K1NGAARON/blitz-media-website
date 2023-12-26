@@ -8,17 +8,24 @@ const content = [
     },
     {
         title: "Maak een website in 4 stappen",
-        tag: "",
+        tag: "website-development",
         body: "",
         img: "/blog/website-4-stappen/img/banner.jpg",
         url: "/blog/website-4-stappen/"
+    },
+    {
+        title: "Een online kalender integreren in jouw website",
+        tag: "website-development",
+        body: "",
+        img: "/blog/online-kalender-in-website/img/banner.jpg",
+        url: "/blog/online-kalender-in-website/"
     },
     // {
     //     title: "",
     //     tag: "",
     //     body: "",
-    //     img: "/portfolio/",
-    //     url: "/portfolio/"
+    //     img: "/blog/",
+    //     url: "/blog/"
     // },
 ];
 
