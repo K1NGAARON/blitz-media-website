@@ -6,6 +6,13 @@ const content = [
         img: "/blog/12-seo-tips/img/banner.jpg",
         url: "/blog/12-seo-tips/"
     },
+    {
+        title: "Maak een website in 4 stappen",
+        tag: "",
+        body: "",
+        img: "/blog/website-4-stappen/img/banner.jpg",
+        url: "/blog/website-4-stappen/"
+    },
     // {
     //     title: "",
     //     tag: "",
