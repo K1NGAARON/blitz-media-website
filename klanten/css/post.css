@@ -1,0 +1,4 @@
+.content.section .row.flex-col.center {
+    align-items: flex-start;
+    max-width: 960px;
+}
