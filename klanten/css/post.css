@@ -4,7 +4,7 @@
 }
 
 .content.section ul {
-    margin-left: 30px;
+    margin: 20px 0 20px 30px;
 }
 
 .content.section ul a {
@@ -15,4 +15,20 @@
 .content.section ul a:hover {
     color: var(--primary);
     transition: var(--transition);
+}
+
+.content.section h2 {
+    font-size: 22px;
+    margin: 60px 0 10px 0;
+}
+
+.toc.section h2 {
+    margin: 0;
+}
+
+@media (max-width: 560px) {
+    .content.section h2 {
+        font-size: 18px;
+        margin: 40px 0 10px 0;
+    }
 }
