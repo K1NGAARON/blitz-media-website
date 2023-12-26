@@ -1,24 +1,10 @@
 const content = [
     {
-        title: "Hiele Defreyne",
-        tag: "website-development",
+        title: "12 SEO tips om hoog te scoren in Google",
+        tag: "seo",
         body: "",
-        img: "/klanten/hiele-defreyne/img/banner.jpg",
-        url: "/klanten/hiele-defreyne/"
-    },
-    {
-        title: "Coin Perdu",
-        tag: "advertising",
-        body: "",
-        img: "/klanten/coin-perdu/img/banner.jpg",
-        url: "/klanten/coin-perdu"
-    },
-    {
-        title: "Vloeren Heyrick",
-        tag: "website-development",
-        body: "",
-        img: "/klanten/vloeren-heyrick/img/banner.jpg",
-        url: "/klanten/vloeren-heyrick/"
+        img: "/blog/12-seo-tips/img/banner.jpg",
+        url: "/blog/12-seo-tips/"
     },
     // {
     //     title: "",
@@ -31,7 +17,6 @@ const content = [
 
 function createCards(e) {
     const target = document.querySelector('#content');
-
     const cards = content.map(item => {
 
         return `
