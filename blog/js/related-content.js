@@ -1,31 +1,31 @@
 const content = [
     {
-        title: "Hiele Defreyne",
-        tag: "website-development",
+        title: "12 SEO tips om hoog te scoren in Google",
+        tag: "seo",
         body: "",
-        img: "/klanten/hiele-defreyne/img/banner.jpg",
-        url: "/klanten/hiele-defreyne/"
+        img: "/blog/12-seo-tips/img/banner.jpg",
+        url: "/blog/12-seo-tips/"
     },
     {
-        title: "Coin Perdu",
-        tag: "advertising",
-        body: "",
-        img: "/klanten/coin-perdu/img/banner.jpg",
-        url: "/klanten/coin-perdu"
-    },
-    {
-        title: "Vloeren Heyrick",
+        title: "Maak een website in 4 stappen",
         tag: "website-development",
         body: "",
-        img: "/klanten/vloeren-heyrick/img/banner.jpg",
-        url: "/klanten/vloeren-heyrick/"
+        img: "/blog/website-4-stappen/img/banner.jpg",
+        url: "/blog/website-4-stappen/"
+    },
+    {
+        title: "Een online kalender integreren in jouw website",
+        tag: "website-development",
+        body: "",
+        img: "/blog/online-kalender-in-website/img/banner.jpg",
+        url: "/blog/online-kalender-in-website/"
     },
     // {
     //     title: "",
     //     tag: "",
     //     body: "",
-    //     img: "/portfolio/",
-    //     url: "/portfolio/"
+    //     img: "/blog/",
+    //     url: "/blog/"
     // },
 ];
 
