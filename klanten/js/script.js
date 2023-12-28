@@ -1,6 +1,6 @@
 const content = [
     {
-        title: "Hiele Defreyne",
+        title: "Ambachtelijke excellentie verwerken in een nieuwe website",
         tag: "website-development",
         body: "",
         img: "/klanten/hiele-defreyne/img/banner.jpg",
