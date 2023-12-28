@@ -7,8 +7,8 @@ const content = [
         url: "/klanten/hiele-defreyne/"
     },
     {
-        title: "Coin Perdu",
-        tag: "advertising",
+        title: "Custom website met online boekingsysteem voor Coin Perdu",
+        tag: "website-development",
         body: "",
         img: "/klanten/coin-perdu/img/banner.jpg",
         url: "/klanten/coin-perdu"
@@ -20,6 +20,55 @@ const content = [
         img: "/klanten/vloeren-heyrick/img/banner.jpg",
         url: "/klanten/vloeren-heyrick/"
     },
+    {
+        title: "Gloednieuwe website voor Klimatherm",
+        tag: "website-development",
+        body: "",
+        img: "/klanten/klimatherm/img/banner.jpg",
+        url: "/klanten/klimatherm/"
+    },
+    {
+        title: "Website Ontwikkeling voor Retro Biketours Brugge",
+        tag: "website-development",
+        body: "",
+        img: "/klanten/retro-biketours/img/banner.jpg",
+        url: "/klanten/retro-biketours/"
+    },
+    {
+        title: "Website Ontwikkeling voor Content Media",
+        tag: "website-development",
+        body: "",
+        img: "/klanten/content-media/img/banner.jpg",
+        url: "/klanten/content-media/"
+    },
+    {
+        title: "Digitale marketing campagne voor een boekhouder",
+        tag: "advertising",
+        body: "",
+        img: "/klanten/online-boekhouder/img/banner.jpg",
+        url: "/klanten/online-boekhouder/"
+    },
+    {
+        title: "Hoe een nieuwe website voor meer leads zorgt",
+        tag: "website=development",
+        body: "",
+        img: "/klanten/sunday/img/banner.jpg",
+        url: "/klanten/sunday/"
+    },
+    // {
+    //     title: "",
+    //     tag: "",
+    //     body: "",
+    //     img: "/portfolio/",
+    //     url: "/portfolio/"
+    // },
+    // {
+    //     title: "",
+    //     tag: "",
+    //     body: "",
+    //     img: "/portfolio/",
+    //     url: "/portfolio/"
+    // },
     // {
     //     title: "",
     //     tag: "",
@@ -32,8 +81,9 @@ const content = [
 function createCards(e) {
     const target = document.querySelector('#related-content-wrapper');
     const shuffledArray = content.sort((a, b) => 0.5 - Math.random());
+    const slicedArray = shuffledArray.slice(0, 3);
     
-    const cards = shuffledArray.map(item => {
+    const cards = slicedArray.map(item => {
 
         return `
             <div class="item card ${item.tag}">

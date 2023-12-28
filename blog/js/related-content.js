@@ -32,8 +32,9 @@ const content = [
 function createCards(e) {
     const target = document.querySelector('#related-content-wrapper');
     const shuffledArray = content.sort((a, b) => 0.5 - Math.random());
+    const slicedArray = shuffledArray.slice(0, 3);
     
-    const cards = shuffledArray.map(item => {
+    const cards = slicedArray.map(item => {
 
         return `
             <div class="item card ${item.tag}">

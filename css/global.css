@@ -282,6 +282,7 @@ img {
 }
 
 .projects .projects-wrapper .item {
+    flex: 1 0 30%;
     background-color: var(--white);
     border-radius: var(--borderRadius);
 }

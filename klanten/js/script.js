@@ -7,8 +7,8 @@ const content = [
         url: "/klanten/hiele-defreyne/"
     },
     {
-        title: "Coin Perdu",
-        tag: "advertising",
+        title: "Custom website met online boekingsysteem voor Coin Perdu",
+        tag: "website-development",
         body: "",
         img: "/klanten/coin-perdu/img/banner.jpg",
         url: "/klanten/coin-perdu"
@@ -19,6 +19,41 @@ const content = [
         body: "",
         img: "/klanten/vloeren-heyrick/img/banner.jpg",
         url: "/klanten/vloeren-heyrick/"
+    },
+    {
+        title: "Gloednieuwe website voor Klimatherm",
+        tag: "website-development",
+        body: "",
+        img: "/klanten/klimatherm/img/banner.jpg",
+        url: "/klanten/klimatherm/"
+    },
+    {
+        title: "Website Ontwikkeling voor Retro Biketours Brugge",
+        tag: "website-development",
+        body: "",
+        img: "/klanten/retro-biketours/img/banner.jpg",
+        url: "/klanten/retro-biketours/"
+    },
+    {
+        title: "Website Ontwikkeling voor Content Media",
+        tag: "website-development",
+        body: "",
+        img: "/klanten/content-media/img/banner.jpg",
+        url: "/klanten/content-media/"
+    },
+    {
+        title: "Digitale marketing campagne voor een boekhouder",
+        tag: "advertisings",
+        body: "",
+        img: "/klanten/online-boekhouder/img/banner.jpg",
+        url: "/klanten/online-boekhouder/"
+    },
+    {
+        title: "Hoe een nieuwe website voor meer leads zorgt",
+        tag: "website=development",
+        body: "",
+        img: "/klanten/sunday/img/banner.jpg",
+        url: "/klanten/sunday/"
     },
     // {
     //     title: "",
