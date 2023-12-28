@@ -14,7 +14,7 @@ const content = [
         url: "/klanten/coin-perdu"
     },
     {
-        title: "Vloeren Heyrick",
+        title: "Een stevige basis voor groei met een nieuwe website",
         tag: "website-development",
         body: "",
         img: "/klanten/vloeren-heyrick/img/banner.jpg",
@@ -43,7 +43,7 @@ const content = [
     },
     {
         title: "Digitale marketing campagne voor een boekhouder",
-        tag: "advertisings",
+        tag: "advertising",
         body: "",
         img: "/klanten/online-boekhouder/img/banner.jpg",
         url: "/klanten/online-boekhouder/"

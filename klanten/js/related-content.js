@@ -14,7 +14,7 @@ const content = [
         url: "/klanten/coin-perdu"
     },
     {
-        title: "Vloeren Heyrick",
+        title: "Een stevige basis voor groei met een nieuwe website",
         tag: "website-development",
         body: "",
         img: "/klanten/vloeren-heyrick/img/banner.jpg",
