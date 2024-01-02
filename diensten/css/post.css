@@ -40,6 +40,19 @@
     color: var(--primary);
 }
 
+.highlighted-case {
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: var(--primary);
+    border-radius: 12px;
+}
+
+.highlighted-case p {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
 .faq {
     width: 100%;
 }
