@@ -23,7 +23,8 @@
     font-weight: 700;
 }
 
-.timing ol {
+.timing ol,
+.timing ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
