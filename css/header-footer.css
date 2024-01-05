@@ -8,12 +8,12 @@
 .header.active {
     position: fixed;
     top: 0;
-    background-color: var(--white);
+    background-color: var(--black);
     transition: background-color 200ms linear;
 }
 
 .header.active .topnav-content-sm svg {
-    fill: var(--black);
+    fill: var(--primary);
 }
 
 .header .row {
@@ -58,6 +58,10 @@
     transition: var(--transition);
 }
 
+.header.active .row {
+    padding: 10px 0;
+}
+
 .header .container .nav:hover {
     transition: var(--transition);
 }
@@ -95,6 +99,12 @@
 
 .header .nav::before {
     background-color: var(--white);
+}
+
+.header .btn.white {
+    color: var(--white);
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
 }
 
 .nav:hover::before {
@@ -198,7 +208,7 @@
 
     .header .logo,
     .footer .logo {
-        width: 75px;
+        width: 100px;
     }
 
     .footer .wrapper {

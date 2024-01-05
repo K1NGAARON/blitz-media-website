@@ -147,6 +147,7 @@ img {
 
 .section.logos .row .logos-wrapper {
     align-items: center;
+    justify-content: center;
     gap: 60px;
 }
 
@@ -523,7 +524,7 @@ img {
     }
 
     .section.logos .row .logos-wrapper .item {
-        flex: 0 1 25%;
+        flex: 0 1 45%;
         padding: 0;
     }
 

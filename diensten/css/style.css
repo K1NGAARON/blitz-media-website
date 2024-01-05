@@ -5,3 +5,10 @@
 .banner.section .row .col:nth-child(2) {
     flex: 1 0;
 }
+
+@media (max-width: 560px) {
+    .banner.section .row .col:nth-child(1),
+    .banner.section .row .col:nth-child(2) {
+        flex: 1 0 100%;
+    }
+}
