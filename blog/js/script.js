@@ -3,22 +3,22 @@ const content = [
         title: "12 SEO tips om hoog te scoren in Google",
         tag: "seo",
         body: "",
-        img: "/blog/12-seo-tips/img/banner.jpg",
-        url: "/blog/12-seo-tips/"
+        img: "/blog/12-seo-tips-om-te-scoren-in-google/img/banner.jpg",
+        url: "/blog/12-seo-tips-om-te-scoren-in-google/"
     },
     {
         title: "Maak een website in 4 stappen",
         tag: "website-development",
         body: "",
-        img: "/blog/website-4-stappen/img/banner.jpg",
-        url: "/blog/website-4-stappen/"
+        img: "/blog/website-stappenplan/img/banner.jpg",
+        url: "/blog/website-stappenplan/"
     },
     {
         title: "Een online kalender integreren in jouw website",
         tag: "website-development",
         body: "",
-        img: "/blog/online-kalender-in-website/img/banner.jpg",
-        url: "/blog/online-kalender-in-website/"
+        img: "/blog/online-kalender-website/img/banner.jpg",
+        url: "/blog/online-kalender-website/"
     },
     // {
     //     title: "",
