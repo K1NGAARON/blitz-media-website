@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html amp lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Website Laten Optimaliseren: Verbeter De Prestaties Van Je Website | Blitz Media
+    </title>
+    <meta name="description" content="Wil je de prestaties van je website verbeteren? Een geoptimaliseerde website zorgt voor meer resultaat.">
+    <link rel="canonical" href="https://blitz-media.io/blog/website-laten-optimaliseren/">
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    <style amp-custom>
+        .header {
+            background-color: transparent;
+            min-height: unset;
+            z-index: 99;
+            transition: background-color 200ms linear;
+        }
+
+        .header.active {
+            position: fixed;
+            top: 0;
+            background-color: var(--black);
+            transition: background-color 200ms linear;
+        }
+
+        .header.active .topnav-content-sm svg {
+            fill: var(--primary);
+        }
+
+        .header .row {
+            width: 100%;
+            min-height: unset;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 10px 0;
+            margin: 0 auto;
+            background-color: transparent;
+        }
+
+        .header .logo,
+        .footer .logo {
+            width: 100px;
+        }
+
+        .header .nav-logo {
+            font-weight: 700;
+            font-size: 26px;
+        }
+
+        .header .container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .header .navbar {
+            display: flex;
+            gap: 60px;
+        }
+
+        .header .container .nav {
+            color: var(--white);
+            opacity: 1;
+            font-weight: 700;
+            font-size: 18px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .header .container .nav:hover {
+            transition: var(--transition);
+        }
+
+        .header .primary-btn {
+            margin-top: 0;
+        }
+
+        .header .topnav-content-sm {
+            display: none;
+        }
+
+        .header .small-menu-wrapper {
+            display: none;
+        }
+
+        .nav {
+            position: relative;
+            text-decoration: none;
+            padding-bottom: 5px;
+        }
+
+        .nav::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--white);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .header .nav::before {
+            background-color: var(--white);
+        }
+
+        .header .btn.white {
+            color: var(--white);
+            border: 1px solid var(--primary);
+            background-color: var(--primary);
+        }
+
+        .nav:hover::before {
+            transform: scaleX(1);
+        }
+
+        .footer {
+            min-height: unset;
+            color: var(--white);
+        }
+
+        .footer .row {
+            min-height: unset;
+            margin: 30px auto;
+        }
+
+        .footer .wrapper {
+            width: 100%;
+        }
+
+        .socials {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .footer .heading {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .footer ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .footer p,
+        .footer a {
+            transition: var(--transition);
+            color: var(--white);
+        }
+
+        .footer a:hover {
+            transition: var(--transition);
+            color: var(--primary);
+        }
+
+        @media (max-width: 800px) {
+            .header.section .row {
+                display: none;
+            }
+
+            .header .topnav-content-sm {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 0;
+            }
+
+            .header .small-menu-content {
+                display: flex;
+                flex-direction: column;
+                padding: 10px 30px;
+                background-color: var(--white);
+                border-bottom-right-radius: var(--borderRadius);
+                border-bottom-left-radius: var(--borderRadius);
+            }
+
+            .header .nav::before {
+                width: fit-content;
+            }
+
+            .header .topnav-content-sm svg {
+                fill: var(--primary);
+                width: 30px;
+            }
+
+            .header .topnav-content-sm svg:hover {
+                cursor: pointer;
+            }
+
+            .header .logo,
+            .footer .logo {
+                width: 100px;
+            }
+
+            .footer .wrapper {
+                flex-flow: column;
+                gap: 40px;
+            }
+        }
+
+        :root {
+            --primary: #0167FF;
+            --white: #fff;
+            --light-grey: #f5f5f5;
+            --background: rgba(88, 88, 88, 0.3);
+            --icon-background: #3A3A3A;
+            --black: #1c1c1c;
+            --boxShadow: 0px 3px 6px #00000029;
+            --borderRadius: 26px;
+            --overlay: var(--black);
+            --overlayVertical: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+            --transition: all .25s ease-in-out;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--black);
+        }
+
+        * {
+            box-sizing: border-box;
+            color: var(--white);
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            line-height: 1.4;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 22px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: var(--borderRadius);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 0 30px;
+        }
+
+        .section.black {
+            background-color: var(--black);
+        }
+
+        .section.black h1,
+        .section.black h2,
+        .section.black h3,
+        .section.black p {
+            color: var(--white);
+        }
+
+        .section.grey {
+            background-color: var(--light-grey);
+        }
+
+        .section .row {
+            width: 100%;
+            max-width: 1600px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            margin: 40px auto;
+            padding: 60px 30px;
+            border-radius: var(--borderRadius);
+            background-color: var(--background);
+        }
+
+        .section .row .center {
+            text-align: center;
+        }
+
+        .section .row.reverse {
+            flex-flow: row-reverse wrap;
+        }
+
+        .section .row.flex-col {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .section .row.flex-col.center {
+            align-items: center;
+        }
+
+        .section .row .col {
+            flex: 1 0 350px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .btn {
+            width: fit-content;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: center;
+            color: var(--white);
+            background-color: var(--primary);
+            border: 1px solid var(--primary);
+            border-radius: var(--borderRadius);
+            padding: 10px 30px;
+            transition: var(--transition); 
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+            transition: var(--transition);
+        }
+
+        .btn.white {
+            background-color: var(--white);
+            color: var(--black);
+            border-color: var(--white);
+        }
+
+        .btn.ghost {
+            background-color: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+
+        .btn.ghost.white {
+            color: var(--white);
+            border: 1px solid var(--white);
+        }
+
+        .wrapper {
+            display: flex;
+            flex-flow: row wrap;
+            gap: 20px;
+        }
+
+        .wrapper .item {
+            flex: 1 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 560px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .section .row {
+                padding: 30px;
+                gap: 40px;
+            }
+
+            .section .row .col {
+                flex: 1 0 100%;
+            }
+
+            p,
+            .btn {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <style amp-boilerplate>
+        body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    </style>
+
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+
+<header>
+    <div class="section header" id="header">
+        <div class="row">
+            <div class="container">
+                <a class="nav-logo" href="/">
+                    <amp-img class="logo" src="/assets/logo/logo-white.png" alt="Blitz Media Logo" width="100" height="56"></amp-img>
+                </a>
+                <nav class="navbar">
+                    <a href="/" class="nav">Home</a>
+                    <a href="/diensten/" class="nav">Diensten</a>
+                    <a href="/portfolio/" class="nav">Klanten</a>
+                    <a href="/blog/" class="nav">Blog</a>
+                </nav>
+                <a href="/contact/" class="btn white">Contact</a>
+            </div>
+        </div>
+
+        <div class="topnav-content-sm">
+            <div class="header-col">
+                <a href="/">
+                    <amp-img class="logo" src="/assets/logo/logo-white.png" alt="Blitz Media Logo" width="100" height="56"></amp-img>
+                </a>
+            </div>
+            <div class="header-col">
+                <a class="icon" id="menu-toggle" on="tap:sidebar.toggle">
+                    <amp-img src="https://www.yourwebsite.com/path-to-your-svg.svg" alt="Menu" width="24" height="24"></amp-img>
+                </a>
+            </div>
+        </div>
+        <div class="small-menu-wrapper">
+            <div class="small-menu-content">
+                <a href="/" class="nav">Home</a>
+                <a href="/diensten/" class="nav">Diensten</a>
+                <a href="/portfolio/" class="nav">Klanten</a>
+                <a href="/blog/" class="nav">Blog</a>
+                <a href="/contact/" class="nav">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="section hero">
+    <div class="row">
+        <div class="col">
+            <h1>
+                Website laten optimaliseren: verbeter de prestaties van je website
+            </h1>
+            <p>
+                Heb je een website maar behaal je niet de gewenste resultaten? Dan is het laten optimaliseren van je website wellicht de oplossing. Website optimalisatie houdt in dat je website zo wordt aangepast dat deze beter presteert in zoekmachines, meer bezoekers trekt en hogere conversies genereert.
+            </p>
+        </div>
+        <div class="col">
+            <amp-img src="../img/banner.jpg" layout="responsive" width="600" height="400"></amp-img>
+        </div>
+    </div>
+</div>
+
+<div class="section content">
+    <div class="row flex-col">
+        <h2>
+            Wat is website optimalisatie?
+        </h2>
+        <p>
+            Website optimalisatie is het proces van het verbeteren van de prestaties van je website op het gebied van zoekmachineoptimalisatie (SEO), gebruikerservaring (UX) en conversieoptimalisatie (CRO).
+            <br><br>
+            Dit omvat het verbeteren van de laadsnelheid van je website, het optimaliseren van de inhoud en structuur van je website, het verbeteren van de navigatie en het aanpassen van de visuele elementen om een betere gebruikerservaring te bieden. Dit alles heeft als doel om meer verkeer naar je website te trekken en de kans op conversies te vergroten.
+        </p>
+
+        <h2>
+            Waarom is website optimalisatie belangrijk?
+        </h2>
+        <p>
+            Een goed geoptimaliseerde website heeft vele voordelen. Ten eerste zal je website beter presteren in zoekmachines, wat betekent dat je meer organisch verkeer naar je website zult trekken. 
+            <br><br>
+            Dit is niet alleen gratis, maar organisch verkeer is vaak ook kwalitatiever dan betaald verkeer, omdat deze bezoekers al op zoek zijn naar jouw product of dienst. Daarnaast zal je website door een betere gebruikerservaring ook meer conversies genereren. Dit betekent dat meer bezoekers uiteindelijk klant worden en dat je dus meer omzet zult genereren.
+        </p>
+
+        <h2>
+            Wat zijn de kosten van website optimalisatie?
+        </h2>
+        <p>
+            De kosten van website optimalisatie zijn afhankelijk van de omvang van de werkzaamheden die nodig zijn om je website te optimaliseren. Voor een kleine website met enkele pagina's kunnen de kosten lager zijn dan voor een grotere website met complexere functionaliteiten. 
+            <br><br>
+            Bij mijn website optimalisatie service hanteer ik transparante prijzen en bied ik twee verschillende pakketten aan: een basispakket voor €500 en een geavanceerd pakket voor €1000. Beide pakketten omvatten de optimalisatie van de belangrijkste SEO-elementen en technische aanpassingen om de laadsnelheid van je website te verbeteren.
+        </p>
+
+        <h2>
+            Conclusie
+        </h2>
+        <p>
+            Tot slot is het optimaliseren van je website essentieel om de prestaties ervan te verbeteren en meer verkeer naar je site te genereren. Door de tijd te nemen om de gebieden te analyseren en aan te pakken die verbetering nodig hebben, kun je een website creëren die snel, gebruiksvriendelijk en boeiend is voor je publiek. 
+            <br><br>
+            Of je nu op zoek bent naar <a href="/diensten/digitale-marketing/">meer leads</a>, een hogere conversie of gewoon een betere gebruikerservaring, het optimaliseren van je website is de sleutel tot succes. Neem vandaag nog contact met mij op en ontdek hoe ik je kan helpen je website te optimaliseren en te laten groeien.
+        </p>
+    </div>
+</div>
+
+<div class="section content conclusion">
+    <div class="row flex-col center">
+        <h2>
+            Klaar om te starten met jouw project?
+        </h2>
+        <a href="/contact/" class="btn">
+            Contacteer ons
+        </a>
+    </div>
+</div>
+
+<footer>
+    <div class="section footer" id="footer">
+        <div class="row">
+            <div class="wrapper footer-wrapper">
+                <div class="item">
+                    <a class="nav-logo" href="/">
+                        <amp-img class="logo" src="/assets/logo/logo-white.png" alt="Blitz Media Logo" width="100" height="56"></amp-img>
+                    </a>
+                </div>
+                <div class="item">
+                    <p class="heading">
+                        Navigatie
+                    </p>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                        <li><a href="/website-check-up/">Website analyse</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="heading">
+                        Diensten
+                    </p>
+                    <ul>
+                        <li><a href="/diensten/website-ontwikkeling/">Website op maat</a></li>
+                        <li><a href="/diensten/digitale-marketing/">Digitale marketing</a></li>
+                        <li><a href="/diensten/seo-optimalisatie/">SEO-optimalisatie</a></li>
+                        <li><a href="/diensten/webshop-ontwikkeling/">Webshop ontwikkeling</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="heading">
+                        Bedrijf
+                    </p>
+                    <ul>
+                        <li>Blitz Media BV</li>
+                        <li>Kroonlaan 8, 0101</li>
+                        <li>BE0685.966.875</li>
+                        <li><a href="/legal/privacy-policy/" target="_blank">Privacybeleid</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
