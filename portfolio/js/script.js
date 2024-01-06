@@ -3,57 +3,57 @@ const content = [
         title: "Ambachtelijke excellentie verwerken in een nieuwe website",
         tag: "website-development",
         body: "",
-        img: "/klanten/hiele-defreyne/img/banner.jpg",
-        url: "/klanten/hiele-defreyne/"
+        img: "/portfolio/hiele-defreyne/img/banner.jpg",
+        url: "/portfolio/hiele-defreyne/"
     },
     {
         title: "Custom website met online boekingsysteem voor Coin Perdu",
         tag: "website-development",
         body: "",
-        img: "/klanten/coin-perdu/img/banner.jpg",
-        url: "/klanten/coin-perdu"
+        img: "/portfolio/coin-perdu/img/banner.jpg",
+        url: "/portfolio/coin-perdu"
     },
     {
         title: "Een stevige basis voor groei met een nieuwe website",
         tag: "website-development",
         body: "",
-        img: "/klanten/vloeren-heyrick/img/banner.jpg",
-        url: "/klanten/vloeren-heyrick/"
+        img: "/portfolio/vloeren-heyrick/img/banner.jpg",
+        url: "/portfolio/vloeren-heyrick/"
     },
     {
         title: "Gloednieuwe website voor Klimatherm",
         tag: "website-development",
         body: "",
-        img: "/klanten/klimatherm/img/banner.jpg",
-        url: "/klanten/klimatherm/"
+        img: "/portfolio/klimatherm/img/banner.jpg",
+        url: "/portfolio/klimatherm/"
     },
     {
         title: "Website Ontwikkeling voor Retro Biketours Brugge",
         tag: "website-development",
         body: "",
-        img: "/klanten/retro-biketours/img/banner.jpg",
-        url: "/klanten/retro-biketours/"
+        img: "/portfolio/retro-biketours/img/banner.jpg",
+        url: "/portfolio/retro-biketours/"
     },
     {
         title: "Website Ontwikkeling voor Content Media",
         tag: "website-development",
         body: "",
-        img: "/klanten/content-media/img/banner.jpg",
-        url: "/klanten/content-media/"
+        img: "/portfolio/content-media/img/banner.jpg",
+        url: "/portfolio/content-media/"
     },
     {
         title: "Digitale marketing campagne voor een boekhouder",
         tag: "advertising",
         body: "",
-        img: "/klanten/online-boekhouder/img/banner.jpg",
-        url: "/klanten/online-boekhouder/"
+        img: "/portfolio/online-boekhouder/img/banner.jpg",
+        url: "/portfolio/online-boekhouder/"
     },
     {
         title: "Hoe een nieuwe website voor meer leads zorgt",
         tag: "website=development",
         body: "",
-        img: "/klanten/sunday/img/banner.jpg",
-        url: "/klanten/sunday/"
+        img: "/portfolio/sunday/img/banner.jpg",
+        url: "/portfolio/sunday/"
     },
     // {
     //     title: "",
