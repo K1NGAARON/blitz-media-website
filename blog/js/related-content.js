@@ -20,6 +20,20 @@ const content = [
         img: "/blog/online-kalender-website/img/banner.jpg",
         url: "/blog/online-kalender-website/"
     },
+    {
+        title: "De perfecte restaurant website",
+        tag: "website-development",
+        body: "",
+        img: "/blog/perfecte-restaurant-website/img/banner.jpg",
+        url: "/blog/perfecte-restaurant-website/"
+    },
+    {
+        title: "Website laten optimaliseren: verbeter de prestaties van je website",
+        tag: "website-development",
+        body: "",
+        img: "/blog/website-laten-optimaliseren/img/banner.jpg",
+        url: "/blog/website-laten-optimaliseren/"
+    },
     // {
     //     title: "",
     //     tag: "",
