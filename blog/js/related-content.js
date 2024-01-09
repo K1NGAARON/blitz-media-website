@@ -34,6 +34,13 @@ const content = [
         img: "/blog/website-laten-optimaliseren/img/banner.jpg",
         url: "/blog/website-laten-optimaliseren/"
     },
+    {
+        title: "Hoger Scoren In Google: 12 Tips Voor 2024",
+        tag: "seo",
+        body: "",
+        img: "/blog/hoger-scoren-in-google/img/banner.jpg",
+        url: "/blog/hoger-scoren-in-google/"
+    },
     // {
     //     title: "",
     //     tag: "",
@@ -48,7 +55,7 @@ function createCards(e) {
     const shuffledArray = content.sort((a, b) => 0.5 - Math.random());
     const slicedArray = shuffledArray.slice(0, 3);
     
-    const cards = slicedArray.map(item => {
+    const cards = slicedArray.reverse().map(item => {
 
         return `
             <div class="item card ${item.tag}">
