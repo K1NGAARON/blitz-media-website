@@ -41,6 +41,13 @@ const content = [
         img: "/blog/hoger-scoren-in-google/img/banner.jpg",
         url: "/blog/hoger-scoren-in-google/"
     },
+    {
+        title: "5 redenen waarom je een website nodig hebt",
+        tag: "website-development",
+        body: "",
+        img: "/blog/impact-van-website/img/banner.jpg",
+        url: "/blog/impact-van-website/"
+    },
     // {
     //     title: "",
     //     tag: "",
