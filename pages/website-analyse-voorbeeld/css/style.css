@@ -4,3 +4,13 @@
     margin-top: 40px;
     width: 100%;
 }
+
+.video-wrapper .video {
+    width: 70%;
+}
+
+@media (max-width: 560px) {
+    .video-wrapper .video {
+        width: 100%;
+    }
+}
