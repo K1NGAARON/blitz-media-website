@@ -33,11 +33,20 @@
 
 .timing ol li::marker {
     font-weight: 700;
-    /* color: var(--primary); */
 }
 
-.timing ol li span {
-    /* color: var(--primary); */
+.what-you-get {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.what-you-get li::before {
+    content: '✓';
+    margin-right: 5px;
+    font-size: 20px;
+    color: var(--primary);
 }
 
 .highlighted-case {
