@@ -1,0 +1,9 @@
+.section .divider {
+    width: 20%;
+    border-color: var(--primary);
+    margin-top: 60px;
+}
+
+.section .row h2 {
+    margin-top: 0;
+}
