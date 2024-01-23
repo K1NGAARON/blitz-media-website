@@ -1,5 +1,12 @@
 const content = [
     {
+        title: "Goeie content zorgde voor een snelle groei van bij de start!",
+        tag: "content-management",
+        body: "",
+        img: "/portfolio/gritstudio/img/banner.jpg",
+        url: "/portfolio/gritstudio/"
+    },
+    {
         title: "Ambachtelijke excellentie verwerken in een nieuwe website",
         tag: "website-development",
         body: "",
