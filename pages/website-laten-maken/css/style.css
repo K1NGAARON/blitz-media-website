@@ -1,0 +1,223 @@
+.content.section .row.flex-col.center {
+    max-width: 1100px;
+}
+
+.content.section h2 {
+    margin: unset;
+}
+
+.content.section h2,
+.content.section h3 {
+    opacity: 1;
+}
+
+.section .divider {
+    width: 20%;
+    border-color: var(--primary);
+    margin-top: 60px;
+}
+
+.steps-wrapper {
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.steps-wrapper .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    background-color: var(--white);
+}
+
+.steps-wrapper .item .heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.steps-wrapper .item .heading-wrapper .label {
+    color: var(--white);
+    font-size: 14px;
+    background-color: var(--primary);
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: var(--borderRadius);
+}
+
+.steps-wrapper .item .heading-wrapper h3 {
+    margin-top: 0;
+    font-size: 22px;
+    color: var(--primary);
+}
+
+.steps-wrapper .item h3,
+.steps-wrapper .item p {
+    color: var(--black);
+    opacity: 1;
+}
+
+.inline-review {
+    display: flex;
+    background-color: var(--light-grey);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 60px auto;
+    border-radius: var(--borderRadius);
+}
+
+.inline-review .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inline-review .item:nth-of-type(1) {
+    flex: 2 0;
+}
+
+.inline-review .item p {
+    color: var(--black);
+}
+
+.inline-review .item .label {
+    background-color: #A1E8A1;
+    color: var(--white);
+    font-size: 14px;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: var(--borderRadius);
+}
+
+.inline-review .item .author {
+    font-weight: 700;
+}
+
+.usp-wrapper {
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.usp-wrapper .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    background-color: var(--white);
+}
+
+.usp-wrapper .item h3 {
+    color: var(--primary);
+    font-size: 16px;
+}
+
+.usp-wrapper .item p {
+    color: var(--black);
+}
+
+.faq {
+    width: 100%;
+}
+
+.faq .wrapper {
+    width: 100%;
+}
+
+.faq .accordion-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.faq .accordion-list .accordion-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+
+.faq .accordion-list .accordion-item:hover {
+    cursor: pointer;
+}
+
+.faq .accordion-list .accordion-item .accordion-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--white);
+    padding-bottom: 15px;
+}
+
+.faq .accordion-list .accordion-item .accordion-head.active {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.faq .accordion-list .accordion-item .accordion-head h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.faq .accordion-list .accordion-item .accordion-head.active h5 {
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon:hover {
+    cursor: pointer;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon.active {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon .fa-minus {
+    transform: rotate(90deg);
+}
+
+.faq .accordion-list .accordion-item .accordion-body {
+    display: none;
+}
+
+.faq .accordion-list .accordion-item .accordion-body.active {
+    display: block;
+}
+
+.faq .accordion-list .accordion-item .accordion-body p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: var(--white);
+    text-align: left;
+    opacity: 0.5;
+}
+
+@media (max-width: 560px) {
+    .faq .wrapper {
+        width: 100%;
+    }
+}
