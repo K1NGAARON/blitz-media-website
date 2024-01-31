@@ -133,8 +133,13 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blitz-media.io/pages/website-laten-maken/</loc>
+  <loc>https://blitz-media.io/pages/website-laten-maken-oostende/</loc>
   <lastmod>2024-01-30T10:33:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blitz-media.io/pages/website-laten-maken-brugge/</loc>
+  <lastmod>2024-01-31T10:33:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>
