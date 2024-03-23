@@ -1,3 +1,92 @@
+function addClientLogos() {
+    const clientLogos = [
+        {
+            img: "/home/img/logos/bitpanda-logo.png",
+            client: "Bitpanda"
+        },
+        {
+            img: "/home/img/logos/cashflowforlife.png",
+            client: "Cashflowforlife"
+        },
+        {
+            img: "/home/img/logos/dumobil-logo.png",
+            client: "Dumobil"
+        },
+        {
+            img: "/home/img/logos/evy-flavour.png",
+            client: "Evy's Flavour"
+        },
+        {
+            img: "/home/img/logos/gusto-mundo-logo.png",
+            client: "Gusto Mundo"
+        },
+        {
+            img: "/home/img/logos/hiele-defreyne.png",
+            client: "Hiele Defreyne"
+        },
+        {
+            img: "/home/img/logos/klimatherm.png",
+            client: "Klimatherm"
+        },
+        {
+            img: "/home/img/logos/kordekor.png",
+            client: "Kordekor"
+        },
+        {
+            img: "/home/img/logos/lansweeper.png",
+            client: "Lansweeper"
+        },
+        {
+            img: "/home/img/logos/proximus-logo.png",
+            client: "Proximus"
+        },
+        {
+            img: "/home/img/logos/tvh.png",
+            client: "TVH"
+        },
+        {
+            img: "/home/img/logos/ide-logo.png",
+            client: "IDE Automotive"
+        },
+        {
+            img: "/home/img/logos/az-reno-logo.png",
+            client: "AZ Reno"
+        },
+        {
+            img: "/home/img/logos/sdk-logo.png",
+            client: "Studieburo De Klerck"
+        },
+        {
+            img: "/home/img/logos/vivox-logo.png",
+            client: "Vivox"
+        },
+        // {
+        //     img: "/home/img/logos/",
+        //     client: ""
+        // },
+        // {
+        //     img: "/home/img/logos/",
+        //     client: ""
+        // },
+    ];
+
+    const shuffledArray = clientLogos.sort((a, b) => 0.5 - Math.random());
+    const slicedArray = shuffledArray.slice(0, 7);
+
+    const target = document.querySelector('#logos-target');
+    
+    const logos = slicedArray.reverse().map(item => {
+            
+        return `
+            <div class="item">
+                <img src="${item.img}" alt="${item.client}">
+            </div>
+        `;
+    }).join('');
+
+    target.innerHTML = logos;
+};
+
 function changeReviews() {
     const reviews = [
         {
@@ -25,3 +114,4 @@ function changeReviews() {
 };
 
 $('.dot').click(changeReviews);
+$(document).ready(addClientLogos);
